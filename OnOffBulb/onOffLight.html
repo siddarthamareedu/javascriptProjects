@@ -4,16 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Turn On and Off</title>
+    <title>Favourite Anime</title>
     <link rel="stylesheet" href="onOffLight.css" />
   </head>
   <body>
     <div class="container">
-      <h3>Can you turn the light on ?</h3>
-      
-      <button id="btn">Turn on the light</button>
-      <button id="btn">Turn off the light</button>
+      <h3>Favourite Anime</h3>
+
+      <button id="btn" onClick="aotf()">Attack On Titan</button>
+      <button id="btn" onClick="deathnotef()">Death Note</button>
+      <br />
+      <img src="images/aot.jpg" alt="aot" id="aot" />
+
+      <img src="images/deathnote.jpg" alt="deathnote" id="deathnote" />
     </div>
-    <script src="onOffLight.js"></script>
+    <script>
+      aotf = () => {
+        var aotv = document.getElementById("aot");
+        aotv.style.visibility = "visible";
+      };
+
+      deathnotef = () => {
+        var deathnotev = document.getElementById("deathnote");
+        deathnotev.style.visibility = "visible";
+      };
+    </script>
   </body>
 </html>
