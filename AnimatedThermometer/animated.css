@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.outerDiv {
+  width: 100vw;
+  height: 100vh;
+  background: #2a364f;
+  display: grid;
+  place-items: center;
+}
+
+.innerDiv {
+  width: 80vw;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+.main-heading {
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+  font-size: 150px;
+}
