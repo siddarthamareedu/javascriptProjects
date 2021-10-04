@@ -20,7 +20,7 @@ form {
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
-#temCalc label {
+#tempCalc label {
   font-size: 30px;
 }
 #temp {
